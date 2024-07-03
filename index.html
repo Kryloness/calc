@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora Online</title>
+</head>
+
+<body>
+    <h1>CALCULADORA PADRÃO</h1>
+    <input type="text" id="nb1" placeholder="Digite um valor"><br><br>
+    <input type="text" id="nb2" placeholder="Digite um valor"><br><br>
+    <input id="calc" type="button" value="CALCULAR" onclick="calc()"><br><br><br><br>
+    <div class="ress">
+        <span class="operation-label" id="sum_">SOMA</span><br><br>
+        <input id="res" placeholder="Resultado" size="10" readonly></input><br><br>
+        <span class="operation-label2" id="div_">DIVISÃO</span><br><br>
+        <input id="resd" placeholder="Resultado" size="10" readonly></input><br><br>
+        <span class="operation-label3" id="mult_">MULTIPLICACÃO</span><br><br>
+        <input id="resm" placeholder="Resultado" size="10" readonly></input><br><br>
+        <span class="operation-label4" id="sub_">SUBTRAÇÃO</span><br><br>
+        <input id="resb" placeholder="Resultado" size="10" readonly></input><br><br>
+    </div><br><br>
+    <hr>
+    <h2>
+        CONVERSÃO FAHRENHEIT
+    </h2>
+    <div>
+        <input type="text" placeholder="Digite o valor em C°" id="c1n"><br><br>
+        <input id="calc" type="button" value="CALCULAR" onclick="converterF()"><br><br>
+        <input id="con" type="text" placeholder="Resultado" size="10" readonly><br><br>
+    </div>
+    <hr>
+    <h3>
+        CONVERSÃO CELSIUS
+    </h3>
+    <div>
+        <input type="text" placeholder="Digite o valor em F°" id="c2n"><br><br>
+        <input id="calc" type="button" value="CALCULAR" onclick="converterC()"><br><br>
+        <input id="con2" type="text" placeholder="Resultado" size="10" readonly><br><br>
+    </div>
+    <hr>
+    <h4>CALCULAR IMC</h4>
+    <div>
+        <input type="text" placeholder="Digite o peso" id="c3n"><br><br>
+        <input type="text" placeholder="Digite a altura" id="c4n"><br><br>
+        <input id="calc" type="button" value="CALCULAR" onclick="imc()"><br><br>
+        <input id="con3" type="text" placeholder="Resultado" size="10" readonly><br><br>
+    </div>
+    <hr>
+    <h5>
+        CALCULAR TRAJETORIA PARABOLICA
+    </h5>
+    <p>HORIZONTALMENTE</p>
+    <div>
+        <input type="text" placeholder="Digite a altura inicial" size="25" id="c5n"><br><br>
+        <input type="text" placeholder="Digite a velocidade inicial" size="25" id="c6n"><br><br>
+        <input type="text" placeholder="Digite o angulo de lançamento" size="25" id="c7n"><br><br>
+        <input type="text" placeholder="Digite a distancia horizontal" size="25" id="c8n"><br><br>
+        <input id="calc" type="button" value="CALCULAR" onclick="th()"><br><br>
+        <input id="con4" type="text" placeholder="Resultado" size="10" readonly><br><br>
+        <p>VERTICALMENTE</p>
+        <input type="text" placeholder="Digite a altura inicial" size="25" id="c9n"><br><br>
+        <input type="text" placeholder="Digite a velocidade inicial" size="25" id="c10n"><br><br>
+        <input type="text" placeholder="Digite o angulo de lançamento" size="25" id="c11n"><br><br>
+        <input type="text" placeholder="Digite o tempo" size="25" id="c12n"><br><br>
+        <input id="calc" type="button" value="CALCULAR" onclick="tv()"><br><br>
+        <input id="con5" type="text" placeholder="Resultado" size="10" readonly><br><br>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <footer id="rodape">by Kryloness</footer>
+</body>
+
+</html>

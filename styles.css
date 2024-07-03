@@ -1,0 +1,105 @@
+* {
+    text-align: center;
+}
+
+body {
+    background: #1b1b32; 
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+    font-family:  serif;
+    font-size: 25px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.568);
+}
+
+ul {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.ress {
+    color: rgba(255, 255, 255, 0.568);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+#p1 {
+    color: black;
+}
+
+#sum_, #div_, #mult_, #sub_{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#rodape {
+    padding-top: 30px;
+    color: white;
+}
+
+fieldset {
+    border: black solid 4px;
+    border-radius: 32px;
+    padding-bottom: 30px;
+}
+
+.border_ {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.operation-label {
+    position: absolute;
+    top: 200px;
+    padding-right: 340px;
+}
+
+.operation-label2 {
+    position: absolute;
+    top: 200px;
+    padding-right: 110px;
+}
+
+.operation-label3 {
+    position: absolute;
+    top: 200px;
+    padding-left: 113px;
+}
+
+.operation-label4 {
+    position: absolute;
+    top: 200px;
+    padding-left: 335px;
+}
+
+input {
+    color: gray;
+    background-color: #0a0a23;
+    border: 1px solid black;
+    border-radius: 32px;
+
+}
+
+#calc{
+  height: 2em;
+  background-color: #3b3b4f;
+  border-color: white;
+}
+
+
+
+
+
+
